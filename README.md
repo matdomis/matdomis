@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://www.credly.com/badges/77398085-0971-4cca-b14e-0cf74d0ee167/public_url">
-    <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="150" width="150" style="">
+    <a href="https://www.credly.com/badges/77398085-0971-4cca-b14e-0cf74d0ee167/public_url" target="_blank">
+        <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="150" width="150" style="">
     </a>
 </p>
 

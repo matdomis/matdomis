@@ -9,7 +9,7 @@
     Hi, I'm Matheus 🥷.
     
     📖 I'm currently studying Big Data.
-    📍 Living in Sorocaba, São Paulo 🇧🇷.
+    🌎 Living in Sorocaba, São Paulo 🇧🇷.
     
 </div>
 

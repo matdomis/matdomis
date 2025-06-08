@@ -4,8 +4,8 @@
     </a>
 </p>
 
-<p align="center">
-    <img src="https://i.gifer.com/WnES.gif" width="60" height="30">
+<p align="left">
+    <img src="https://i.gifer.com/WnES.gif" width="80" height="50">
 </p>
 
 <div align="center" 

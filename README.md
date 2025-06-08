@@ -12,6 +12,9 @@
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
     
 </div>
+<p align="center">
+    <img src="https://img1.picmix.com/output/stamp/normal/3/5/0/5/2355053_a8a79.gif" width="60" height="30">
+</p>
 
 <!--
 **matdomis/matdomis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

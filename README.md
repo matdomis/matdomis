@@ -4,13 +4,12 @@
     </a>
 </p>
 
-<p align="center">
-    <img src="https://img1.picmix.com/output/stamp/normal/3/5/0/5/2355053_a8a79.gif" width="60" height="30">
-</p>
+```diff
+Hi, I'm Matheus 🥷.
 
-<p align="center">
-     Hello there! 👋
-</p>
+I'm currently studying Big Data.
++ Living in Sorocaba, São Paulo 🇧🇷.
+```
 
 <!--
 **matdomis/matdomis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -6,13 +6,11 @@
 
 <div align="center" 
     
-    ```diff
     Hi, I'm Matheus 🥷.
     
-    ! 📖 I'm currently studying Big Data.
-    + 📍 Living in Sorocaba, São Paulo 🇧🇷.
+    📖 I'm currently studying Big Data.
+    📍 Living in Sorocaba, São Paulo 🇧🇷.
     
-    ```
 </div>
 
 <!--

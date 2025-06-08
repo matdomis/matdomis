@@ -4,12 +4,16 @@
     </a>
 </p>
 
-```diff
-Hi, I'm Matheus 🥷.
-
-I'm currently studying Big Data.
-+ Living in Sorocaba, São Paulo 🇧🇷.
-```
+<div align="center" 
+    
+    ```diff
+    Hi, I'm Matheus 🥷.
+    
+    ! 📖 I'm currently studying Big Data.
+    + 📍 Living in Sorocaba, São Paulo 🇧🇷.
+    
+    ```
+</div>
 
 <!--
 **matdomis/matdomis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

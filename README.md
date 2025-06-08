@@ -4,8 +4,8 @@
     </a>
 </p>
 
-<p align="left">
-    <img src="https://i.gifer.com/WnES.gif" width="80" height="50">
+<p align="center">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnJiYWZpY2YxaW84Y3ZmbmpjOGx3MGFxdjliejAxbWNqY3V0ZTY5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ErZ8hv5eO92JW/giphy.gif" width="80" height="40">
 </p>
 
 <div align="center" 

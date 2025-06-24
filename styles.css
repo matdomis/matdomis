@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #1A2E44; 
+  background-image: linear-gradient(135deg, #1A2E44 0%, #102030 100%);
+  background-size: 400% 400%; 
+  transition: background-position 0.8s ease-in-out;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  color: #F0F8FF;
+  font-family: 'Montserrat', sans-serif; 
+  line-height: 1.6;
+}
+
+body div p {
+  text-align: center;
+}

@@ -11,8 +11,6 @@
 <div align="center" 
     
     Hi, I'm Matheus 🥷.
-    
-    📖 I'm currently studying Big Data.
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
     
 </div>

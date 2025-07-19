@@ -1,6 +1,6 @@
 ---
 
-<img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="110" style=">
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="110">
 
 <div>
 

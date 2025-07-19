@@ -6,11 +6,12 @@
     🛠️ Data Engineer
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
 
-    <span style="padding:10px;background-color:#f0f0f0"> 
-        📖 Hustle beats talent, when talent don't hustle.
-    </span>
+
 ```
 
+<span style="padding:10px;background-color:#f0f0f0"> 
+    📖 Hustle beats talent, when talent don't hustle.
+</span>
 
 <!--
 <p align="center" target="_blank">

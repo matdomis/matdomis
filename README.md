@@ -29,11 +29,17 @@
 ### 🔗 Social
 
 
-[![matdomis.dev](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://matdomis.dev)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-)](https://www.linkedin.com/in/itsmespiazzy/)
-[![Linktree](https://img.shields.io/badge/Linktree-34A853?style=for-the-badge&logo=linktree&logoColor=white)](#)
+  <a href="https://matdomis.dev" target="_blank">
+    <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="matdomis.dev">
+  </a>
 
+  <a href="https://www.linkedin.com/in/itsmespiazzy/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Linktree-34A853?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree">
+  </a>
 
 
 ### 🌟 Github Badges
@@ -46,6 +52,6 @@
 
 <br>
 
-> 💡 Hustle beats talent, when talent doesn't hustle.
+> 💡 Hustle beats talent, when talent don't hustle.
 
 ---

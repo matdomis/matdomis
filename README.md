@@ -1,4 +1,4 @@
-<img align="left" src="https://i.gifer.com/1kaI.gif" width="100" height="80">
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="180" height="160">
 
 ```diff
     Hi, I'm Matheus 🥷.

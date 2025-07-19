@@ -1,6 +1,6 @@
 ---
 
-<img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="120">
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="110" style=">
 
 <div>
 
@@ -13,8 +13,7 @@
 
 ---
 
-### 👨‍💻 Current Stack
-
+### 👨‍💻Current Stack
 
 <div>
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python Badge">
@@ -27,7 +26,7 @@
 
 
 
-### 👉 Social
+### 🔗 Social
 
 
 [![matdomis.dev](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://matdomis.dev)
@@ -37,17 +36,16 @@
 
 
 
-### 🤖 Github Badges
+### 🌟 Github Badges
 
 <p align="left" target="_blank">
     <a href="https://www.credly.com/badges/77398085-0971-4cca-b14e-0cf74d0ee167/public_url" target="_blank">
-        <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="110" width="100">
+        <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="120" width="120">
     </a>
 </p>
 
 <br>
-<span style="padding:10px;background-color:#f1f1f9"> 
-    💡 Hustle beats talent, when talent don't hustle.
-</span>
+
+> 💡 Hustle beats talent, when talent don't hustle.
 
 ---

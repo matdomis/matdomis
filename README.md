@@ -1,21 +1,22 @@
-<p align="center" target="_blank">
-    <a href="https://www.credly.com/badges/77398085-0971-4cca-b14e-0cf74d0ee167/public_url" target="_blank">
-        <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="150" width="150">
-    </a>
+
+<p align="left">
+    <img src="https://i.gifer.com/1kaI.gif" width="80" height="40">
 </p>
 
-<p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnJiYWZpY2YxaW84Y3ZmbmpjOGx3MGFxdjliejAxbWNqY3V0ZTY5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ErZ8hv5eO92JW/giphy.gif" width="80" height="40">
-</p>
-
-<div align="center" 
+<div align="left" 
     
     Hi, I'm Matheus 🥷.
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
     
 </div>
 
-
+<!--
+<p align="center" target="_blank">
+    <a href="https://www.credly.com/badges/77398085-0971-4cca-b14e-0cf74d0ee167/public_url" target="_blank">
+        <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations Certification Badge" height="150" width="150">
+    </a>
+</p>
+-->
 
 <!--
 **matdomis/matdomis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

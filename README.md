@@ -46,6 +46,6 @@
 
 <br>
 
-> 💡 Hustle beats talent, when talent don't hustle.
+> 💡 Hustle beats talent, when talent doesn't hustle.
 
 ---

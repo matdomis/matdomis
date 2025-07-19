@@ -1,5 +1,5 @@
 ---
-<img align="left" src="https://i.gifer.com/1kaI.gif" width="180" height="160">
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="180" height="180">
 
 <div>
 
@@ -7,12 +7,14 @@
     
     🛠️ Data Engineer && Problem Solver.
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
+
+</div>
+
 ![Badge1](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Badge2](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Badge3](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Badge4](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Badge5](https://img.shields.io/badge/Amazon_Web_Services-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-</div>
 
 ---
 

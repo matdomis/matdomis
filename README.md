@@ -1,14 +1,14 @@
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="100" height="80">
 
-<p align="left">
-    <img src="https://i.gifer.com/1kaI.gif" width="80" height="40">
-</p>
-
-<div align="left" 
-    
+```diff
     Hi, I'm Matheus 🥷.
+    
+    🛠️ Data Engineer
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
     
-</div>
+    ! 📖 Hustle beats talent, when talent don't hustle.
+```
+
 
 <!--
 <p align="center" target="_blank">

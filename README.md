@@ -1,5 +1,5 @@
 ---
-<img align="left" src="https://i.gifer.com/1kaI.gif" width="180" height="180" style="padding: 20px">
+<img align="left" src="https://i.gifer.com/1kaI.gif" width="180" height="180">
 
 <div>
 

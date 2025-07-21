@@ -8,7 +8,7 @@
     
     🛠️ Data Engineer && Problem Solver.
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
-
+    🌀 Arch Linux Hyprland User.
 </div>
 
 ---

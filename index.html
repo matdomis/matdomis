@@ -1,21 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>matdomis</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://cdn2.steamgriddb.com/icon/77c9679e728f84d8b01ab64ee0da3c98.png" type="image/x-icon">
+    <title>Seu Nome - Cartão de Visita</title>
 
+    <link rel="stylesheet" href="./src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        #game-of-life-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            animation: fade-out-subtle 3s ease-in-out forwards;
+        }
+
+        @keyframes fade-out-subtle {
+            0% { opacity: 1; }
+            100% { opacity: 0.15; }
+        }
+
+        .overlay {
+            position: relative;
+            /* Garante que o conteúdo fique sobre o canvas (z-index maior) */
+            z-index: 10;
+            /* Fundo escuro semi-transparente para o texto ser legível */
+            /* Efeito moderno para embaçar levemente o Game of Life por trás */
+            backdrop-filter: blur(4px);
+            opacity: 0;
+
+             /* 2. Aplica a animação: */
+             /* 'fade-in-overlay' (nome) | '1s' (duração do fade-in) | 'ease-out' (suavidade) */
+             animation: fade-in-overlay 1s ease-out forwards;
+
+             /* 3. O ATRASO DE 3 SEGUNDOS */
+             animation-delay: 3s;
+        }
+
+        @keyframes fade-in-overlay {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+    </style>
 </head>
-<body>
-    <div>
-        <img src="./img/ippo_gif.gif" alt="pikachu dancing" width="300px">
-        <p> page maintenance 🛠️</p>
+
+<body class="bg-black text-white h-screen overflow-hidden flex items-center justify-center">
+
+    <canvas id="game-of-life-canvas"></canvas>
+
+    <div class="overlay bg-black/70 p-8 w-full max-w-lg md:max-w-2xl lg:max-w-3xl rounded-xl shadow-2xl mx-auto">
+
+        <div class="text-center">
+            <img class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-black hover:border-green-800 transition duration-500"
+                 src="./img/eu.jpg" alt="Sua Foto de Perfil">
+
+            <h1 class="text-3xl font-extrabold mt-4 text-white mb-10 font-playfair" style="font-family: 'Playfair Display', serif;">
+              Matheus Spiazzi
+              <span class="block text-[10px] mt-1 text-green-500 p-2 font-serif">{matdomis.dev}</span>
+            </h1>
+
+            <p class="text-base font-medium text-white p-2 mb-10 font-mono italic underline">Data Engineer && Problem Solver</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-6 md:gap-12 mb-8">
+
+            <a href="https://www.linkedin.com/in/itsmespiazzy/" target="_blank" class="text-gray-400 hover:text-green-500 transition duration-300">
+                <svg class="w-8 h-8 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.518-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+
+            <a href="https://github.com/matdomis" target="_blank" class="text-gray-400 hover:text-green-500 transition duration-300">
+                <svg class="w-8 h-8 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.087-.744.084-.692.084-.692 1.205.084 1.839 1.237 1.839 1.237 1.07 1.833 2.807 1.304 3.492.997.107-.775.418-1.304.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.301-1.23 3.301-1.23.652 1.652.241 2.873.117 3.176.771.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.474 5.923.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.792 24 17.292 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+
+            <a href="https://www.instagram.com/matdomis/" target="_blank" class="text-gray-400 hover:text-green-500 transition duration-300">
+                <svg class="w-8 h-8 md:w-14 md:h-14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07c3.15.15 4.654 1.764 4.808 4.97.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.15 3.15-1.764 4.654-4.97 4.808-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-3.15-.15-4.654-1.764-4.808-4.97-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.15-3.15 1.764-4.654 4.97-4.808 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.012-4.945.07c-3.518.163-5.462 2.072-5.626 5.586-.058 1.278-.07 1.686-.07 4.945s.012 3.667.07 4.945c.164 3.514 2.108 5.423 5.626 5.586 1.278.058 1.686.07 4.945.07s3.667-.012 4.945-.07c3.518-.163 5.462-2.072 5.626-5.586.058-1.278.07-1.686.07-4.945s-.012-3.667-.07-4.945c-.164-3.514-2.108-5.423-5.626-5.586-1.278-.058-1.686-.07-4.945-.07zm0 5.404c-3.633 0-6.596 2.963-6.596 6.596s2.963 6.596 6.596 6.596 6.596-2.963 6.596-6.596-2.963-6.596-6.596-6.596zm0 10.993c-2.427 0-4.397-1.97-4.397-4.397s1.97-4.397 4.397-4.397 4.397 1.97 4.397 4.397-1.97 4.397-4.397 4.397zm7.594-11.439c0-.422-.343-.765-.765-.765s-.765.343-.765.765.343.765.765.765.765-.343.765-.765z"/></svg>
+            </a>
+
+            <a href="https://x.com/matdormes" target="_blank" class="text-gray-400 hover:text-green-500 transition duration-300">
+                <svg class="w-8 h-8 md:w-12 md:h-12" fill="currentColor" viewBox="0 0 24 24"><path d="M18.901 1.144h3.692l-8.627 9.873 9.927 11.026h-8.815l-6.22-7.172-7.143 7.172h-3.692l9.049-9.972-9.456-11.027h8.816l5.72 6.645zm-1.892 18.253l1.838.257h-.008l-7.794-8.915-6.736-7.73h-1.637l7.794 8.915 6.771 7.473h.001z"/></svg>
+            </a>
+        </div>
+        <!--<div class="inline-flex items-center justify-center w-full">
+            <a href="seu_curriculo.pdf" download
+            class="inline-flex bg-gray-700/50 hover:bg-gray-700 text-white hover:text-green-500
+                    transition duration-300 rounded-full px-3 py-2 space-x-1 text-xs font-semibold shadow-md">
+
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M5 20h14v-2H5v2zm7-18v12l4-4h-3V2h-2v8H8l4 4z"/>
+                </svg>
+
+                <span class="font-">CV</span>
+            </a>
+        </div>-->
 
     </div>
 
+    <script src="game-of-life.js"></script>
 
-    
 </body>
 </html>

@@ -6,7 +6,7 @@
 
     Hi, I'm Matheus 🥷.
     
-    🛠️ Data Engineer && Problem Solver.
+    🛠️ Software Engineer && Problem Solver.
     🌎 Living in Sorocaba, São Paulo 🇧🇷.
     🌀 Arch Linux Hyprland User.
 </div>

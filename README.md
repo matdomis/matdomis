@@ -1,14 +1,16 @@
 ---
+
 <img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="110">
 
 <div>
 
-Hi, I'm Matheus 🥷.
+    Hi, I'm Matheus 🥷.
 
-🛠️ Software Engineer && Problem Solver.
-🌎 Living in Sorocaba, São Paulo 🇧🇷.
-🌀 Arch Linux Hyprland User.
+    🛠️ Software Engineer && Problem Solver.
+    🌎 Living in Sorocaba, São Paulo 🇧🇷.
+    🌀 Arch Linux Hyprland User.
 </div>
+
 ---
 
 ### 👨‍💻 Current Stack

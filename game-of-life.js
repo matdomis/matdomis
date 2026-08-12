@@ -2,7 +2,8 @@ const CELL_SIZE = 8;
 const CELL_LIFE_PROBABILITY = 0.185;
 const LIFE = 1;
 const DEATH = 0;
-const UPDATE_INTERVAL_MS = 100; // 100ms = 10 atualizações por segundo (para a lógica)
+const UPDATE_INTERVAL_MS = 120;
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const canvas = document.getElementById("game-of-life-canvas");
 const ctx = canvas.getContext("2d");
@@ -32,7 +33,6 @@ function initializeGrid() {
   for (let i = 0; i < rows; i++) {
     const row = [];
     for (let j = 0; j < cols; j++) {
-      // Atribui vida baseado na probabilidade
       const isAlive = Math.random() < CELL_LIFE_PROBABILITY ? LIFE : DEATH;
       row.push(isAlive);
     }
@@ -57,7 +57,6 @@ function countLifeNeighbors(r, c) {
     const nr = r + dr;
     const nc = c + dc;
 
-    // Verifica se o vizinho está dentro dos limites da grade
     if (nr >= 0 && nr < rows && nc >= 0 && nc < cols) {
       if (grid[nr][nc] === LIFE) {
         liveCount++;
@@ -75,22 +74,18 @@ function updateGrid() {
       const isAlive = grid[r][c];
       const lifeNeighbors = countLifeNeighbors(r, c);
 
-      // Regras do Jogo da Vida:
-
-      // 1. Célula VIVA
       if (isAlive === LIFE) {
         if (lifeNeighbors === 2 || lifeNeighbors === 3) {
-          newGrid[r][c] = LIFE; // Sobrevive
+          newGrid[r][c] = LIFE;
         } else {
-          newGrid[r][c] = DEATH; // Morre por solidão (<2) ou superpopulação (>3)
+          newGrid[r][c] = DEATH;
         }
       }
-      // 2. Célula MORTA
       else {
         if (lifeNeighbors === 3) {
-          newGrid[r][c] = LIFE; // Revive
+          newGrid[r][c] = LIFE;
         } else {
-          newGrid[r][c] = DEATH; // Continua morta
+          newGrid[r][c] = DEATH;
         }
       }
     }
@@ -100,15 +95,13 @@ function updateGrid() {
 }
 
 function drawGrid() {
-  // Limpa o canvas
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "#020806";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
       if (grid[r][c] === LIFE) {
-        ctx.fillStyle = "white"; // Cor da célula viva (como no seu código Python)
-        // Desenha o quadrado
+        ctx.fillStyle = "#45ff72";
         ctx.fillRect(c * CELL_SIZE, r * CELL_SIZE, CELL_SIZE, CELL_SIZE);
       }
     }
@@ -116,19 +109,23 @@ function drawGrid() {
 }
 
 function gameLoop(currentTime) {
-  // Usa o timestamp para controlar a taxa de atualização da LÓGICA (não apenas do desenho)
   if (currentTime - lastUpdate >= UPDATE_INTERVAL_MS) {
-    updateGrid(); // Atualiza o estado da grade
+    updateGrid();
+    drawGrid();
     lastUpdate = currentTime;
   }
-
-  drawGrid(); // Sempre redesenha a grade na taxa de frames do navegador (normalmente 60 FPS)
 
   requestAnimationFrame(gameLoop);
 }
 
 setupCanvas();
+drawGrid();
 
-window.addEventListener("resize", setupCanvas);
+window.addEventListener("resize", () => {
+  setupCanvas();
+  drawGrid();
+});
 
-requestAnimationFrame(gameLoop);
+if (!reduceMotion) {
+  requestAnimationFrame(gameLoop);
+}

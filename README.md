@@ -1,16 +1,14 @@
 ---
-
 <img align="left" src="https://i.gifer.com/1kaI.gif" width="160" height="110">
 
 <div>
 
-    Hi, I'm Matheus 🥷.
-    
-    🛠️ Software Engineer && Problem Solver.
-    🌎 Living in Sorocaba, São Paulo 🇧🇷.
-    🌀 Arch Linux Hyprland User.
-</div>
+Hi, I'm Matheus 🥷.
 
+🛠️ Software Engineer && Problem Solver.
+🌎 Living in Sorocaba, São Paulo 🇧🇷.
+🌀 Arch Linux Hyprland User.
+</div>
 ---
 
 ### 👨‍💻 Current Stack
@@ -36,14 +34,9 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" alt="Shopify">
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
 </p>
 
-
-
-
 ### 🔗 Social
-
 
   <a href="https://matdomis.dev" target="_blank">
     <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="matdomis.dev">
@@ -56,7 +49,6 @@
   <a href="#" target="_blank">
     <img src="https://img.shields.io/badge/Linktree-34A853?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree">
   </a>
-
 
 ### 🌟 Github Badges
 
